@@ -1,0 +1,177 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+font-family: 'Luxurious Roman', cursive;
+}
+.orange-colour{
+    color: orange;
+}
+.flexiable-container{
+    display: flex;
+    align-items: center;
+    
+}
+.half-width{
+    width:50%;
+    padding-left: 7%;
+    text-align: justify;
+}
+.half-width h1{
+    font-weight: 1000px;
+    font-size:55px;
+    font-family: 'Luxurious Roman', cursive;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(orange , tomato);
+    padding:10px 40px;
+    color:white;
+    border-radius: 5px;
+}
+.border{
+    border-left: 8px solid;
+    padding: 0px 10px;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+.scroll{
+    margin-top: 20px;
+}
+.mission-area{
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-bottom: 5%;
+}
+.experi{
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 40px;
+    
+}
+.one-third{
+    width:30%;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-left: 2%;
+    text-align: justify;
+    background-color: bisque;
+   
+}
+.one-third{
+    text-align: center;
+}
+.one-third img{
+    width: 40%;
+}
+#box-1{
+    padding:3px;
+    background-color: blanchedalmond;
+    justify-content: center;
+
+}
+#box-2{
+    padding:3px;
+    background-color:cornflowerblue;
+    justify-content: center;
+
+}
+#box-3{
+    padding:3px;
+    background-color:palegreen;
+    justify-content: center;
+
+}
+.dream{
+    margin-top: 120px;
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+   
+    background-size: 40%;
+    background-position-y: 60%;
+    background-position-x: 5%;
+}
+.dream-half{
+    width:50%;
+
+}
+.dream-half img{
+    width:60%;
+    
+    margin-left: 50px;
+    padding-left: 10%;
+
+}
+.tig{
+    margin-top: 120px;
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+   
+    background-size: 30%;
+    background-position-y: 130%;
+    background-position-x: 95%;
+}
+.textt{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+
+
+
+.last-section {
+
+    padding: 4rem 2rem 1rem;
+}
+
+.social-section {
+
+    padding: 15px 0;
+    background-color: black;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 7px;
+    color: blanchedalmond;
+
+}
+
+.social-section .s-item {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.social-section p {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.title h1{
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    background-color: #0B0D17;
+}
+
+footer h1, footer p{
+    text-align: center;
+    color:#BEC0C6;
+}
+.year{
+    color:tomato;
+    font-family: 'Poppins', sans-serif;
+
+}
+
